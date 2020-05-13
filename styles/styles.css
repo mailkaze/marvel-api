@@ -25,6 +25,19 @@ body {
     padding: 12px;
     margin: 10px 0;
     box-shadow: 3px 3px 3px rgb(66, 66, 66);
+    display: flex;
+    justify-content: space-between;
+}
+
+.card picture {
+    width: 40%;
+}
+
+.card picture img {
+    width: 100%;
+}
+.card .text {
+    width: 55%;
 }
 
 @media screen and (max-width: 700px) {
